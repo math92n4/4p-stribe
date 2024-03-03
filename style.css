@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    grid-template-columns: repeat(7, max-content);
+    display: grid;
+    gap: .5em;
+    margin: 0 auto;
+}
+
+.cell {
+    background-color: white;
+    width: 64px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
